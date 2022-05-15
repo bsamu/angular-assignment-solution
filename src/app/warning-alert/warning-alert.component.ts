@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-warning-alert',
-  templateUrl: './warning-alert.component.html',
+  template: `<p>This is the warning alert from template in .ts.</p>`,
   styles: [`
     p {
       color: red;
